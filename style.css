@@ -1,0 +1,55 @@
+
+/* navbar section -- */
+ 
+.fa_chevron{
+  /* color: #707070 !important; */
+  color: #707070 !important;
+   font-weight: 400 !important;
+}
+
+.section_button{
+  background: #B68C5A !important;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.banner{
+  height: 70vh;
+  width: 100%; 
+  background: url('./legal-solution-resources/images/banner.png') no-repeat  ; 
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  height: 500px !important;
+  width: auto;
+  border: none;
+  margin-top: 70px;
+}
+.activeCard{
+  background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+border: 1px solid #E7E7E7;
+}
+ 
+.slide_img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.carousel-item{
+  height: 500px;
+}
+
+.contact_address{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  text-align: center;
+}
+.box{
+  background: #F3F3F3;
+}
